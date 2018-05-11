@@ -1,9 +1,57 @@
-body {
-    background-image: url("./images/colorfulBackground.jpg");
+#index{
+    background-image: url("./images/cleanBackground.png");
+    background-repeat: no-repeat;
     background-size: cover;
-    opacity: .9;
+    
+}
+
+#portfolio{
+    background-image: url("./images/desertBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#contact{
+    background-image: url("./images/forestBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+#about{
+    background-image: url("./images/darkerLandscape.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .profile {
     height: 100%;
+}
+
+.imageBtn {
+    height: 200px;
+    width: 200px;
+    padding: 0 0 0 0;
+    box-shadow: 7px 7px 3px rgba(240, 228, 228, 0.938);
+}
+
+#myName {
+    position: fixed;
+    bottom: 350px;
+}
+
+#myName2 {
+    font-size: 60px;
+}
+#tagLine {
+    font-size: 36px;
+    position: fixed;
+    bottom: 250px;
+}
+
+#contactMe {
+    position: fixed;
+    top: 300px;
 }

@@ -8,87 +8,76 @@
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-    crossorigin="anonymous">
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/style.css" />
     <script src="main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body id="portfolio">
 
     <!-- Top navigation bar -->
 
-    <div id="navigationBar">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-        <header>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <h1>Ben Rademacher</h1>
-
-            <nav>
-                <ul class="navBar">
-                    <li>
-                        <a href="index.html">About</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
                     </li>
-                    <li>
-                        <a href="portfolio.html">Portfolio</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./about.html">About</a>
                     </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <a class="nav-link" href="./contact.html">Contact</a>
                     </li>
                 </ul>
-            </nav>
+            </div>
 
-        </header>
+        </nav>
 
+    </header>
+
+    <div class="container text-center text-light">
+        <h2>Sample of Work</h2>
     </div>
-
+    <br>
+    <br>
     <div class="container">
-
-        <div class="main">
-
-            <h2>Portfolio</h2>
-
-            <img id="hangman" src="assets/images/hangman.jpg" alt="Hangman">
-            <div id="hangman2">
-                <a href="#">
-                    <h1>Hangman</h1>
+        <div class="row">
+            <div class="col">
+                <a href="https://brademacher.github.io/Hangman/">
+                    <img class="btn imageBtn" role="button" src="./assets/images/hangman.jpg">
                 </a>
             </div>
-
-            <img id="rpg" src="assets/images/rpg.jpg" alt="RPG">
-            <div id="rpg2">
-                <a href="#">
-                    <h1>RPG Game</h1>
+            <div class="col">
+                <a href="https://brademacher.github.io/Gem-Game/">
+                    <img class="btn imageBtn" role="button" src="./assets/images/crystal.jpg">
                 </a>
             </div>
-
-            <img id="trivia" src="assets/images/trivia.jpg" alt="Trivia">
-            <div id="trivia2">
-                <a href="#">
-                    <h1>Trivia Game</h1>
+            <div class="col">
+                <a href="https://brademacher.github.io/Giphy-API/">
+                    <img class="btn imageBtn" role="button" src="./assets/images/api.png">
                 </a>
             </div>
-
-            <img id="rutgers" src="assets/images/rutgers.jpg" alt="Rutgers">
-            <div id="rutgers2">
-                <a href="#">
-                    <h1>Rutgers Info Widget</h1>
+            <div class="col">
+                <a href="https://brademacher.github.io/Train-Time/">
+                    <img class="btn imageBtn" role="button" src="./assets/images/train.gif">
                 </a>
             </div>
-
-            <img id="rock" src="assets/images/rock.jpg" alt="Rock">
-            <div id="rock2">
-                <a href="#">
-                    <h1>Rock Paper Scissors</h1>
-                </a>
-            </div>
-
         </div>
-
     </div>
 
-    <footer id="footer">Copyright @</footer>
 
+    <div class="card-footer fixed-bottom bg-dark text-light text-center" id="footer">Copyright @</div>
 </body>
 
 </html>
