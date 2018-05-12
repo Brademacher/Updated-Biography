@@ -6,21 +6,22 @@
 }
 
 #portfolio{
-    background-image: url("./images/desertBackground.jpg");
+    background-image: url("./images/northernLight.png");
     background-repeat: no-repeat;
     background-size: cover;
     
 }
 
 #contact{
-    background-image: url("./images/forestBackground.jpg");
+    background-image: url("./images/outpost.png");
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: .95;
    
 }
 
 #about{
-    background-image: url("./images/darkerLandscape.jpg");
+    background-image: url("./images/deerBackgroundLarge.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -34,7 +35,13 @@
     height: 200px;
     width: 200px;
     padding: 0 0 0 0;
-    box-shadow: 7px 7px 3px rgba(240, 228, 228, 0.938);
+    box-shadow: 5px 5px 3px rgba(111, 119, 114, 0.75);
+    opacity: .8;
+}
+
+.imageBtn:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
 }
 
 #myName {
@@ -44,14 +51,48 @@
 
 #myName2 {
     font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
 }
 #tagLine {
     font-size: 36px;
     position: fixed;
     bottom: 250px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #contactMe {
     position: fixed;
-    top: 300px;
+    top: 30%;
+}
+
+#aboutMe {
+ font-size: 24px;
+ font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 2200px) {
+    #index{
+        background-image: url("./images/cleanBackground.png");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+    #portfolio{
+        background-image: url("./images/northernLight.png");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    
+    #contact{
+        background-image: url("./images/outpost.png");
+        background-repeat: no-repeat;
+        background-size: auto;
+        opacity: .95;
+    }
+    
+    #about{
+        background-image: url("./images/deerBackgroundLarge.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
 }
